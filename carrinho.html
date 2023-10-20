@@ -123,11 +123,7 @@
         <button onclick="checkout()">Concluir Pedido</button>
     </div>
 
-    <div id="total">
-        <h3>Total: R$ 0</h3>
-    </div>
-
-    <h2>Opcoes de Pagamento</h2>
+        <h2>Opcoes de Pagamento</h2>
     <select id="payment">
         <option value="credito">Cartao de Credito</option>
         <option value="debito">Cartao de Debito</option>
@@ -135,7 +131,11 @@
         <option value="paypal">Pix</option>
         <!-- Adicione mais opções de pagamento conforme necessário -->
     </select>
-
+    
+    <div id="total">
+        <h3>Total: R$ 0</h3>
+    </div>
+    
     <script>
         let cart = [];
         let total = 0;
